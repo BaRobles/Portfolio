@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://kit.fontawesome.com/f21bc06b69.js" crossorigin="anonymous"></script>
+
+  <title>Portfolio Bá</title>
+
+</head>
+<body>
+  <header>
+
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="index.html#services" class="nav__link">Meus Serviços</a></li>
+        <li class="nav__item"><a href="index.html#about" class="nav__link">Sobre Mim</a></li>
+        <li class="nav__item"><a href="index.html#work" class="nav__link">Meu Trabalho</a></li>
+        <li class="nav__item"><a href="curriculo.html" class="nav__link">Meu Currículo</a></li>
+        <li class="nav__item"><a href="form.html" class="nav__link">Fale Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="form">
+    <form method="post" action="" name="contact-us">
+      <h2>Fale Conosco</h2>
+      <div class="form-item">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required>
+      </div>
+      <div class="form-item">
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" placeholder="user@email.com" required>
+      </div>
+      <div class="form-item">
+        <label for="message">Digite a sua mensagem</label>
+        <textarea name="message" rows="7" id="message" required></textarea>
+      </div>
+      <div class="buttons">
+        <button class="btn btn-highlight" type="submit" id="submit" value="Submit">Enviar</button>
+        <button class="btn btn-secondary" type="reset">Limpar</button>
+      </div>
+    </form>
+  </div>
+
+  <footer class="footer">
+    <a href="mailto:babirobles_7@hotmail.com" class="footer__link">E-MAIL</a>
+
+    <ul class="social-list">
+
+      <li class="social-list__item">
+        <a href="www.linkedin.com/in/barbara-rvillela" class="social-list__link" title="Meu Perfil no LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a href="https://github.com/BaRobles" class="social-list__link" title="Meu Perfil no GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <br>
+    </ul>
+    <div class="footer__credit">
+      <p class="footer__text">
+        Imagens obtidas do Freepik. Modelo de portfólio inspirado no trabalho de Kevin Powell.</p>
+      <p class="footer__text">
+        @ Bá Robles 2023</p>
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+  <script src="js/form-message.js"></script>
+</body>
+</html>

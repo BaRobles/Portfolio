@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style/normalize.css">
+  <link rel="stylesheet" href="style/style.css">
+  <script src="https://kit.fontawesome.com/f21bc06b69.js" crossorigin="anonymous"></script>
+
+  <title>Portfolio Bá Robles</title>
+
+</head>
+<body>
+  <header>
+    <!-- <div class="logo">
+      <img src="images/perfil.jpg" alt="foto perfil"> 
+    </div> -->
+    <button class="nav-toggle" aria-label="toggle navigation">
+      <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+        <li class="nav__item"><a href="#services" class="nav__link">Meus Serviços</a></li>
+        <li class="nav__item"><a href="#about" class="nav__link">Sobre Mim</a></li>
+        <li class="nav__item"><a href="#work" class="nav__link">Meu Trabalho</a></li>
+        <li class="nav__item"><a href="curriculo.html" class="nav__link">Meu Currículo</a></li>
+        <li class="nav__item"><a href="form.html" class="nav__link">Fale Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Introdução -->
+
+  <section class="intro" id="home">
+    <h1 class="section__title section__title--intro">Olá, meu nome é <strong>Bárbara Robles</strong>
+    </h1>
+    <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+    <img src="images/perfil.jpg" alt="foto da bá sorrindo" class="intro__img">
+  </section>
+
+<!-- My Services -->
+  <section class="my-services" id="services">
+  <h2 class="section__title section__title--services">Meus Serviços</h2>
+  <div class="services">
+    <div class="service">
+      <h3>Front-End</h3>
+        <p>Tenho conhecimentos de 
+          <abbr class="highlight">HTML</abbr>
+           , <abbr class="highlight">CSS</abbr> e <span class="highlight">JavaScript</span> em nível Júnior.</p>
+    </div><!--  service -->
+    <div class="service">
+      <h3>Python</h3>
+        <p>Nível iniciante.</p>
+    </div><!--  service -->
+   </div><!--  services -->
+
+   <a href="#work" class="btn">Meu Trabalho</a>
+  </section>
+
+  <!-- About me -->
+<section class="about-me" id="about">
+  <!-- poderia envonver o h2 e o p com um header -->
+  <h2 class="section__title section__title--about">Sobre Mim</h2>
+  <p class="section__subtitle section__subtitle--about">Desenvolvedora Front-End</p>
+
+  <div class="about-me__body">
+    <p>Tenho 31 anos, sou advogada e estou em transição de carreira.</p>
+    <p>Sou uma pessoa bastante eclética. Sempre gostei muito de direitos sociais, idiomas e matemática, o que me fez me apaixonar pela programação. Acredito firmemente que a habilidade de programar é a chave para forjar um mundo verdadeiramente inclusivo.</p>
+    <p>Para mais informações, acesse o meu currículo <a href="curriculo.html">aqui</a>, entre em contato pelo nosso <a href="form.html">Fale Conosco</a> ou, se preferir, me envie um e-mail em <a href="mailto:babirobles_7@hotmail.com" target="_blank">babirobles_7@hotmail.com</a>!</p>
+  </div>
+  
+  <img src="images/euvertical.jpg" alt="foto de Bárbara" class="about-me__img">
+  
+</section>
+
+  <!-- My Work-->
+  <section class="my-work" id="work">
+    <h2 class="section__title section__title--work">Meu Portfólio</h2>
+    <p class="section__subtitle section__subtitle--work">Uma seleção do meu trabalho</p>
+
+    <div class="portfolio">
+      <!-- Portfolio item 01 -->
+      <a href="https://barobles.github.io/cardapio/" class="portfolio__item" target="_blank">
+        <img src="images/greeksalad.jpg" alt="Cardápio Grego" class="portfolio__img">
+      </a>
+      <!-- Portfolio item 02 -->
+      <a href="https://barobles.github.io/Ada-Lovelace/" class="portfolio__item" target="_blank">
+        <img src="https://s2.glbimg.com/paF5KTEVGzMU-ZcZa2mjYicNDjM=/e.glbimg.com/og/ed/f/original/2015/03/09/ada.jpg" alt="Ada Lovelace" class="portfolio__img">
+      </a>
+
+      <!-- Portfolio item 03 -->
+      <a href="https://barobles.github.io/ods16/" class="portfolio__item" target="_blank" >
+        <img src="images/ods16.jpg" alt="ODS 16" class="portfolio__img">
+      </a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <a href="mailto:babirobles_7@hotmail.com" class="footer__link">E-MAIL</a>
+
+    <ul class="social-list">
+
+      <li class="social-list__item">
+        <a href="www.linkedin.com/in/barbara-rvillela" class="social-list__link" title="Meu Perfil no LinkedIn">
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+      </li>
+      <li class="social-list__item">
+        <a href="https://github.com/BaRobles" class="social-list__link" title="Meu Perfil no GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+      </li>
+      <br>
+    </ul>
+    <div class="footer__credit">
+      <p class="footer__text">
+        Imagens obtidas do site Freepik. Modelo de portfólio inspirado no trabalho de Kevin Powell.</p>
+      <p class="footer__text">
+        @ Bá Robles 2023</p>
+    </div>
+  </footer>
+
+  <script src="js/index.js"></script>
+
+</body>
+</html>
